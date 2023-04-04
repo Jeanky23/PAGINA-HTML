@@ -31,6 +31,9 @@ input[type="submit"]:hover {
 }
 
 
+
+
+
 header {
 	background-color: #333;
 	color: #fff;
@@ -59,4 +62,34 @@ nav a {
 
 nav a:hover {
 	text-decoration: underline;
+}
+
+
+
+
+
+.destacados {
+	background-color: #f2f2f2;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.imagenes {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.imagenes img {
+	width: 250px;
+	height: 250px;
+	margin: 20px;
+	object-fit: cover;
+}
+
+.imagenes a {
+	display: block;
+	text-align: center;
+	color: #333;
+	font-weight: bold;
+	text-decoration: none;
 }
